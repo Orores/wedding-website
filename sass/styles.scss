@@ -260,9 +260,10 @@ Hero
   position: relative;
 
   .rsvp-btn {
-    position: absolute;
+    position: relative;
     bottom: 100px;
-    left: 50%;
+    left: auto;
+    right: auto;
   }
   .down-arrow a {
     color: $txt-light;
